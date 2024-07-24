@@ -10,6 +10,7 @@ import suicide from "../../Assets/Projects/group.png";
 import bitsOfCode from "../../Assets/Projects/quran.png";
 import bitsOfCode1 from "../../Assets/Projects/mdb.png";
 import food from "../../Assets/Projects/food.png";
+import holy from "../../Assets/Projects/holiday.png";
 import editor1 from "../../Assets/Projects/1.png";
 
 function Projects() {
@@ -52,14 +53,18 @@ and support Dark and light Theme."
               demoLink="https://project-management-system-1.netlify.app/"
             />
           </Col>
+       
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={holy}
               isBlog={false}
-              title="Quran-app"
-              description="build with React.js ,typescript and Tailwind Css which support show all quran sura which can  audio or read it,and this website is fully responsive."
-              ghLink="https://github.com/HadeerMagdy17/quran-app"
-              demoLink="https://hadeer-magdy-quran-app.netlify.app/"
+              title="Travel"
+              description="where I've harnessed the power of React.js and Sass to create 
+an innovative and user-friendly travel application.
+Travel is designed to make exploring new destinations easier and more enjoyable.
+ Whether you're planning your next adventure or just dreaming about future travels, this app has you covered!,and this website is fully responsive."
+              ghLink="https://github.com/hadeerMSN/14-cocktails"
+              demoLink="https://cocktails-react-12e567.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -75,18 +80,17 @@ and support Dark and light Theme."
               ghLink="https://github.com/HadeerMagdy17/Hotel-System"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={food}
               isBlog={false}
-              title="Group CRUD"
-              description="using react js , simple crud that you can add group and display in table and also can edit or delete."
-              ghLink="https://github.com/HadeerMagdy17/group-management-system"
-               demoLink="https://group-system.netlify.app/"
-              
+              title="Food app"
+              description="build with react js ,bootstrap ,with food upp there are roles for (user/admin) there is authentication system , many cruds for recipes and categories ,users"
+              ghLink="https://github.com/HadeerMagdy17/user-food-app"
+              demoLink="https://hadeer-food-app11.netlify.app/"
             />
           </Col>
+     
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -106,12 +110,23 @@ and support Dark and light Theme."
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={food}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Food app"
-              description="build with react js ,bootstrap ,with food upp there are roles for (user/admin) there is authentication system , many cruds for recipes and categories ,users"
-              ghLink="https://github.com/HadeerMagdy17/user-food-app"
-              // demoLink="https://ecommerce1-app-store.netlify.app/"
+              title="Quran-app"
+              description="build with React.js ,typescript and Tailwind Css which support show all quran sura which can  audio or read it,and this website is fully responsive."
+              ghLink="https://github.com/HadeerMagdy17/quran-app"
+              demoLink="https://hadeer-magdy-quran-app.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Group CRUD"
+              description="using react js , simple crud that you can add group and display in table and also can edit or delete."
+              ghLink="https://github.com/HadeerMagdy17/group-management-system"
+               demoLink="https://group-system.netlify.app/"
+              
             />
           </Col>
 
@@ -126,6 +141,7 @@ and support Dark and light Theme."
               // demoLink="https://hadeer-magdy-quran-app.netlify.app/"
             />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
